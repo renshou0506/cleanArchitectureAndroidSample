@@ -20,4 +20,8 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "LearningCleanArchitecture"
+// 依存関係に他のモジュールを加える記述で使用.
+// implementation(projects.core.database)のような書き方をするときに必要な記述
+enableFeaturePreview(("TYPESAFE_PROJECT_ACCESSORS"))
 include(":app")
+include(":core:database")
