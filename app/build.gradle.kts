@@ -71,6 +71,8 @@ android {
 dependencies {
     // この書き方をする場合はsetting.gradle.ktsを参照.
     implementation(projects.core.database)
+    implementation(projects.core.data)
+    implementation(projects.core.domain)
 
     // hilt
     implementation(libs.dagger.hilt)
