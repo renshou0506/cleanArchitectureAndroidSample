@@ -21,6 +21,9 @@ ksp = "1.9.21-1.0.16"
 androidGradlePlugin="8.2.2"
 jetbrainsKotlinJvm = "1.9.0"
 appcompat = "1.6.1"
+moshi = "1.12.0"
+retrofit2 = "2.9.0"
+okhttp = "3.8.0"
 
 
 
@@ -74,6 +77,12 @@ room-ktx = {group="androidx.room",name="room-ktx",version.ref="room"}
 room-runtime = {group="androidx.room",name="room-runtime",version.ref="room"}
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 
+#retrofit(通信)
+moshi-kotlin = {group = "com.squareup.moshi", name = "moshi-kotlin", version.ref ="moshi"}
+moshi-kotlin-codegen = {group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi"}
+retrofit2 = {group= "com.squareup.retrofit2",name = "retrofit", version.ref = "retrofit2"}
+retrofit2-converter = {group= "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit2"}
+okhttp-logging-interceptor = {group="com.squareup.okhttp3", name="logging-interceptor",version.ref="okhttp"}
 
 [plugins]
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
